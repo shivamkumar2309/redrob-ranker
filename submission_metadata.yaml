@@ -1,16 +1,13 @@
-team_name: "redrob-ranker"
+team_name: "SolveX"
 
 primary_contact:
-  name: "Full Name"
-  email: "primary@example.com"
-  phone: "+91-XXXXXXXXXX"
+  name: "Shivam Kumar" 
+  email: "shivam738804@gmail.com"     
+  phone: "+91-7522068918"               
 
 team_members:
-  - name: "Full Name"
-    email: "primary@example.com"
-    role: "ML Engineer"
-  - name: "Full Name"
-    email: "primary@example.com"
+  - name: "Shivam Kumar"
+    email: "your@email.com"
     role: "ML Engineer"
 
 github_repo: "https://github.com/shivamkumar2309/redrob-ranker"
@@ -50,7 +47,7 @@ methodology_summary: |
   history while penalizing pure IT services careers. Behavioral scoring
   uses all 23 Redrob platform signals including recency, open-to-work
   flag, notice period, GitHub activity, and recruiter response rate.
-  Runtime ~25 seconds for 100K candidates on CPU with no network calls.
+  Runtime ~9 seconds for 100K candidates on CPU with no network calls.
 
 declarations:
   read_submission_spec: true
