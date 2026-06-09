@@ -1,0 +1,60 @@
+team_name: "redrob-ranker"
+
+primary_contact:
+  name: "Full Name"
+  email: "primary@example.com"
+  phone: "+91-XXXXXXXXXX"
+
+team_members:
+  - name: "Full Name"
+    email: "primary@example.com"
+    role: "ML Engineer"
+  - name: "Full Name"
+    email: "primary@example.com"
+    role: "ML Engineer"
+
+github_repo: "https://github.com/YOUR_USERNAME/redrob-ranker"
+
+sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"
+
+reproduce_command: "python rank.py --candidates ./data/candidates.jsonl --out ./outputs/submission.csv"
+
+compute:
+  platform: "Windows 11 Local Machine"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.10"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+ai_tools_used:
+  - "Claude"
+
+ai_usage_summary: |
+  Used Claude for architecture discussion and code review.
+  All scoring logic, weight decisions, and engineering choices
+  were made and validated by the participant.
+  No candidate data was fed to any external LLM at any point.
+
+methodology_summary: |
+  Five-component hybrid scoring system that ranks candidates the way a
+  great recruiter would — not by keyword matching, but by understanding
+  genuine fit. Components: Title Fit (25%), Skill Quality (25%), Career
+  Signal (20%), Experience Fit (15%), Behavioral Score (15%). Title scoring
+  is the primary honeypot and keyword-stuffer trap killer. Skill scoring
+  uses an endorsement-and-duration trust multiplier to penalize ghost
+  skills. Career scoring rewards product-company and AI-relevant work
+  history while penalizing pure IT services careers. Behavioral scoring
+  uses all 23 Redrob platform signals including recency, open-to-work
+  flag, notice period, GitHub activity, and recruiter response rate.
+  Runtime ~25 seconds for 100K candidates on CPU with no network calls.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
