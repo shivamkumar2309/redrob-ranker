@@ -5,11 +5,15 @@ primary_contact:
   email: "shivam738804@gmail.com"     
   phone: "+91-7522068918"               
 
-team_members:
+team_member 1:
+  - name: "Shivam Kumar"
+    email: "shivam738804@gmail.com"
+  
+team_member 2:
   - name: "Prachi Chakrawal"
     email: "vermaaprachii73@gmail.com"
 
-team_members:
+team_member 3:
   - name: "Saharsh Singh"
     email: "saharshsingh152@gamil.com"
 
