@@ -6,9 +6,12 @@ primary_contact:
   phone: "+91-7522068918"               
 
 team_members:
-  - name: "Shivam Kumar"
-    email: "your@email.com"
-    role: "ML Engineer"
+  - name: "Prachi Chakrawal"
+    email: "vermaaprachii73@gmail.com"
+
+team_members:
+  - name: "Saharsh Singh"
+    email: "saharshsingh152@gamil.com"
 
 github_repo: "https://github.com/shivamkumar2309/redrob-ranker"
 

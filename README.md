@@ -47,7 +47,7 @@ Uses all 23 Redrob platform signals:
 - Honeypots in top 100: 0/100 
 - Candidates in 5–9yr band: 99/100 
 - Open to work: 90/100 
-- Score range: 0.9406 → 0.8700
+- Score range: 0.9571 → 0.8761
 
 ## How to Run
 

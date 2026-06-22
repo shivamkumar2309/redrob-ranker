@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Redrob Hackathon — Candidate Ranking System
-Usage: python rank.py --candidates D:/redrob-ranker/data/candidates.jsonl --out D:/redrob-ranker/outputs/submission.csv
+# Usage: python rank.py --candidates ./data/candidates.jsonl --out ./outputs/submission.csv
 """
 
 import argparse
@@ -13,9 +13,9 @@ from src.reasoning import generate_reasoning
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--candidates", default="D:/redrob-ranker/data/candidates.jsonl",
+    parser.add_argument("--candidates", default="./data/candidates.jsonl",
                         help="Path to candidates.jsonl or candidates.jsonl")
-    parser.add_argument("--out", default="D:/redrob-ranker/outputs/submission.csv",
+    parser.add_argument("--out", default="./outputs/submission.csv",
                         help="Output CSV path")
     parser.add_argument("--top", type=int, default=100,
                         help="Number of candidates to output (default 100)")
